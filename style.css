@@ -984,3 +984,22 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+#startMessage {
+  position: fixed;
+  inset: 0;
+  background: black;
+  z-index: 999999;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 15vh;
+}
+
+.msg-box {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.6;
+  padding: 0 20px;
+}
